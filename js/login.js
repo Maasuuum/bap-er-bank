@@ -21,9 +21,9 @@ document.getElementById('btn-submit').addEventListener('click', function(){
     // DANGER: Do Not verify email password on the client side
     // step 5: verify email and password and check whether valid user or not
     if(email === 'masum@gmail.com' && password === 'secret'){
-        console.log('valid user')
+        window.location.href = 'bankhome.html';
     }
     else{
-        console.log('invalid user')
+        alert('eto soja na bachadhon')
     }
 })
